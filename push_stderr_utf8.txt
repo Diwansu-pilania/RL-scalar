@@ -1,0 +1,12 @@
+﻿uv : Usage: openenv push [OPTIONS] [DIRECTORY]
+At line:1 char:1
++ uv run openenv push . --repo-id Diwansu/email-triage-env > push_stdou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Usage: openenv ...NS] [DIRECTORY]:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Try 'openenv push --help' for help.
++- Error ---------------------------------------------------------------------+
+| Invalid value: Invalid OpenEnv environment structure: Required file         |
+| missing: models.py                                                          |
++-----------------------------------------------------------------------------+
